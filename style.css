@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:#e28413;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#eca140;
+}
+.navbar a{
+    color:#e28413 !important;
+    font-weight:bold;
+}
+
+/* CARD DESIGN */
+.one{
+    background:#000000;
+    color:white;
+}
+.bord{
+    border:2px solid #e28413
+}
+.bordt{
+    border-top:2px solid #e28413;
+}
+
+/* INPUT */
+.form-control{
+    background:#d6a77a;
+    border:2px solid #ec8540;
+    color:white;
+}
+.form-control:focus{
+    background:hsl(32, 96%, 79%);
+    border:2px solid #ee9d67;
+    box-shadow:none;
+    color:white;
+}
+
+/* BUTTONS */
+.btn-pink{
+    background:#d6a77a;
+    color:rgb(0, 0, 0);
+    border:none;
+}
+.btn-pink:hover{
+    background:#ee9d67;
+}
+
+/* POSTS GAP */
+.posts{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* EDIT DELETE BUTTON POSITION */
+.post-actions{
+    display:flex;
+    justify-content:flex-end;
+    gap:15px;
+    padding:10px;
+}
+
+/* ---------------- LOGIN & SIGNUP ---------------- */
+.login-form,
+.signup-form {
+    width: 400px;
+    padding: 40px 30px;
+    background: #000000;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
+}
+input:focus {
+    box-shadow: 0 0 10px rgba(209, 107, 12, 0.6);
+}
+
+/* Buttons in login/signup */
+
+.login-form button,
+.signup-form button {
+    width: 220px;
+    margin: 10px auto;
+    display: block;
+    padding: 12px 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #a16515, #1f2222);
+    border: none;
+    color: #cfd8dc;
+}
+
+
+.signup-form button {
+    width: 320px;
+}
+
+.loginCont,
+.signCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form:hover,
+.signup-form:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+}
+
+.login-form button:hover,
+.signup-form button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #cc9139, #101111);
+    cursor: pointer;
+}
+
+.images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.selectedImg{
+    border: 2px solid #ffa114;
+}
+.images img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-primary{
+    background:#d6a77a;
+    border:none;
+    color:#000000;
+}
+.btn-primary:hover{
+    background:#ee9d67;
+    color:#000000;
+    border:none;
+}
+.btn-primary:focus{
+    background:#ee9d67;
+    color:#000000;
+    border:none;
+}
+.blockquote-footer {
+color: white !important;
+font-weight: bold;
+}
